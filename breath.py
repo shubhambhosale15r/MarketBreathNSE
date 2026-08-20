@@ -13,8 +13,8 @@ MA_6M_DAYS = 126
 MA_1Y_DAYS = 252
 
 # Moving average periods for DELIV_PER (same as price, but you can edit separately)
-MA_DELIV_3M_DAYS = 60
-MA_DELIV_6M_DAYS = 120
+MA_DELIV_3M_DAYS = 63
+MA_DELIV_6M_DAYS = 126
 MA_DELIV_1Y_DAYS = 252
 
 PRICE_MATRIX_CSV = "nse_breadth_outputs/nse_full_price_matrix.csv"
@@ -26,7 +26,7 @@ DAILY_REPORT_CSV = "nse_breadth_outputs/daily_breadth_report.csv"
 REPORT_START = datetime.now() - timedelta(days=365)
 REPORT_END = datetime.now()
 
-WARMUP_DAYS = 450
+WARMUP_DAYS = 380
 DATA_START = REPORT_START - timedelta(days=WARMUP_DAYS)
 
 HEADERS = {
